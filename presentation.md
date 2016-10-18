@@ -750,6 +750,7 @@ class: middle
 - [Computer Programming/Hello world](https://en.wikibooks.org/wiki/Computer_Programming/Hello_world)
 - [Hello world/Text](https://www.rosettacode.org/wiki/Hello_world/Text)
 - [What's new in Ruby 2.3?](http://nithinbekal.com/posts/ruby-2-3-features/)
+- [New Features in Ruby 2.4](https://blog.blockscore.com/new-features-in-ruby-2-4/)
 - [So You've Decided to Contribute to Ruby](https://blog.engineyard.com/2014/contribute-to-ruby)
 - [Ruby 3x3: Ruby 3 will be 3 times faster](http://engineering.appfolio.com/appfolio-engineering/2015/11/18/ruby-3x3)
 
