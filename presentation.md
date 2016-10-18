@@ -655,14 +655,17 @@ class: middle
 # Find classes which subclass the base "Numeric" class:
 numerics = ObjectSpace.each_object(Module).select { |mod| mod < Numeric }
 
-# In Ruby 2.3:
+# Ruby 2.3:
 numerics # => [Complex, Rational, Bignum, Float, Fixnum, Integer, BigDecimal]
 
-# In Ruby 2.4:
+# Ruby 2.4:
 numerics # => [Complex, Rational, Float, Integer, BigDecimal]
 ```
 
 ---
+
+layout: false
+class: middle
 
 ### Integer#digits
 
