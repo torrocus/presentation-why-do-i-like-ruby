@@ -664,6 +664,19 @@ numerics # => [Complex, Rational, Float, Integer, BigDecimal]
 
 ---
 
+### Integer#digits
+
+```ruby
+# Ruby 2.3:
+123.to_s.chars.map(&:to_i).reverse # => [3, 2, 1]
+
+# Ruby 2.4
+123.digits                  # => [3, 2, 1]
+123.digits[0]               # => 3
+```
+
+---
+
 layout: false
 class: middle
 
